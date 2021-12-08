@@ -1,0 +1,492 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.container{
+    border: 10px solid white;
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+a:hover {
+    color: rgb(113, 90, 140);
+}
+
+.tagline {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+
+}
+
+li {
+    padding-bottom: 0.7rem;
+}
+
+.quartierPres {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+h1 {
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800 !important;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800 !important;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+.navbar {
+    background-color: white!important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 800;
+    text-shadow: rgba(0, 0, 0, 0.3) 3px 0 20px !important;
+    
+}
+
+.dropdown-item {
+    color: black;
+    text-shadow: 5px 12px 12px 0 rgba(24, 24, 24, 0.15), 5px 17px 45px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+.btnEng {
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif !important;
+    border-radius: 20px!important;
+    border: white!important;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btnEng:hover {
+    background-color: rgb(113, 90, 140);
+    border-color: rgb(113, 90, 140);
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+.carousel {
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.aptImg {
+    width: 100%;
+    height: auto!important;
+    margin: 0 !important;
+    border-top-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+}
+
+.appartmentListing {
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 4rem;
+}
+
+.applicationTitle {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800;
+    color: rgb(113, 90, 140);
+}
+
+.aptTitle {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800;
+}
+
+.aptDescCat {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800;
+}
+
+.loyer {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800;
+    color: rgb(113, 90, 140);
+    font-size: 1.2rem;
+}
+
+.infoBtn {
+    font-size: 4rem;
+    color: rgb(113, 90, 140);
+}
+
+.infoBtn:hover {
+    font-size: 4rem;
+    color: rgb(70, 51, 94);
+
+}
+
+.infos {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.appartementTitles {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.rounded {
+    border-radius: 15px !important;
+}
+
+.btn-outline-success {
+    border-color: white;
+    color: rgb(113, 90, 140);
+    background-color: white;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px!important;
+}
+
+.btn-outline-success:hover {
+    background-color: rgb(113, 90, 140);
+    border-color: rgb(113, 90, 140);
+    color: white;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', sans-serif !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15) !important;
+    font-weight: 800 !important;
+}
+
+
+.navbar-toggler {
+    border-color: white!important;
+    background-color: white !important;
+    color: black;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(113, 90, 140);
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: rgb(84, 84, 84);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px rgb(84, 84, 84);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.module_border {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.uploadBtn {
+    background-color: rgb(113, 90, 140);
+    border-color: rgb(113, 90, 140);
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+#imgPreview {
+    width: 200px;
+    max-height: 200px;
+    display: block;
+}
+
+.fa-phone {
+    font-size: 3rem;
+}
+
+.contactForm {
+    padding: 1rem !important;
+}
+
+.btn-primary {
+    background-color: white;
+    border-color: white;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    color: rgb(113, 90, 140);
+    font-family: 'Poppins', sans-serif !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15) !important;
+    font-weight: 800 !important;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(113, 90, 140);
+    border-color: rgb(113, 90, 140);
+    color: white;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', sans-serif !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15) !important;
+    font-weight: 800 !important;
+}
+
+.aptBtn {
+    margin-bottom: 7rem;
+    border-radius: 20px!important;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+.aptForm {
+    padding: 1rem !important;
+    margin-bottom: 7rem;
+}
+
+.appartmentPhotos:hover {
+    opacity: 0.8;
+    transition: opacity 0.9s;
+}
+
+.appartmentPhotos {
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.about {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    padding-bottom: 3rem !important;
+}
+
+.neumorphismBorder {
+    border-radius: 20px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+.mainContent {
+    background: rgb(210, 195, 227);
+    background: linear-gradient(180deg, rgba(210, 195, 227, 0.9430147058823529) 0%, rgba(225, 211, 237, 0.8869922969187675) 5%, rgba(255, 255, 255, 1) 85%);
+    border-radius: 20px;
+    border: 1px rgb(224, 220, 232);
+}
+
+.borderDashboard {
+    border-radius: 20px;
+    border: 1px black solid;
+    overflow: hidden;
+}
+
+.neumorphismBorderDashboard {
+    background: rgba(255, 255, 255, 0.755);
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+.taglineDashboard {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-weight: 800 !important;
+}
+
+.bi-telephone-fill {
+    font-size: 3rem;
+}
+
+.dashBoardmain {
+    padding: 2rem !important;
+}
+
+.neumorphismBordercards {
+    background: rgba(255, 255, 255, 0.755);
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn-outline-danger {
+    background-color: white !important;
+    border : white;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 20px!important;
+}
+
+.btn-outline-danger:hover {
+    background-color: rgb(235, 69, 69) !important;
+    border : rgb(235, 69, 69) !important;
+    font-weight: 800;
+    color: white !important;
+    border-color: rgb(235, 69, 69) !important;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15) !important;
+}
+
+.modal-header {
+    background-color: rgb(235, 69, 69) !important;
+}
+
+.btn-outline-dark {
+    background-color: white !important;
+    border: white!important;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 20px!important;
+}
+
+.btn-outline-dark:hover {
+    background-color: black !important;
+    color: white !important;
+    border-color: black !important;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15) !important;
+}
+
+#imgPreview {
+    width: 300px;
+    max-height: 300px;
+    display: block;
+}
+
+.dashboardAppartmentListing {
+    background: rgba(255, 255, 255, 0.755);
+    -webkit-box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 12px 0 rgba(24, 24, 24, 0.15), 0 17px 45px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 4rem;
+}
